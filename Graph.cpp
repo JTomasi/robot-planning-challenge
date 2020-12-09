@@ -16,7 +16,7 @@ Graph::Graph(int N)
 float Graph::wayPointDistanceCost(const WayPoint& a, const WayPoint& b)
 {
     /* 
-    Calculate edge cost between two waypoint, accounting for OTTO speed and the 10 second wait time at each waypoint.
+    Calculate edge cost between two waypoint, accounting for robot speed and the 10 second wait time at each waypoint.
     */
     return ((sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2))/2) + 10);
 }
