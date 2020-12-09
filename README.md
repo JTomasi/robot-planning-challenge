@@ -1,4 +1,4 @@
-# otto-challenge
+# robot-planning-challenge
 
 This repository contains code for solving the minimum time of a 2D navigation problem for an indoor mobile robot in a 100x100 grid.
 
